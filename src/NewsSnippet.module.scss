@@ -1,0 +1,56 @@
+.news {
+  cursor: pointer;
+
+  .avatar {
+    position: absolute;
+    top: -24px;
+    right: 16px;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    margin-bottom: 8px;
+  }
+
+  .domain {
+    font-size: 0.85em;
+  }
+
+  .title {
+    margin: 0 0 12px;
+  }
+
+  .metrics {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    margin-bottom: 12px;
+  }
+
+  .tags,
+  .traffic {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+
+    margin-bottom: 12px;
+  }
+
+  .highlights {
+    background: #fafafa;
+    padding: 12px;
+    border-radius: 4px;
+
+    &__title {
+      margin-top: 0px;
+    }
+
+    .highlight {
+      margin-bottom: 8px;
+    }
+  }
+}
